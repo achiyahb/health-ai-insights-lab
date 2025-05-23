@@ -16,8 +16,8 @@ const SummarySection = () => {
             <div className="flex-1">
               <h3 className="font-bold text-lg mb-2">מה למדנו?</h3>
               <p className="text-gray-700 leading-relaxed">
-                לצוות ריפוי בעיסוק בית חולים בלינסון, תודה רבה, מאוד נהננו להעביר לכן את הסדנה.
-                אנחנו מצרפים לכן כאן רשימת כלי AI וקישורים עליהם דיברנו בסדנה, וטבלה המסכמת 
+                לצוות ריפוי בעיסוק מרכז רפואי שוהם, תודה רבה, מאוד נהנינו להעביר לכם את הסדנה.
+                אנחנו מצרפים לכם כאן רשימת כלי AI וקישורים עליהם דיברנו בסדנה, וטבלה המסכמת 
                 את שיטת מ.ת.פ.ק.ד.ת לכתיבת פרומפט איכותי.
               </p>
             </div>
@@ -76,6 +76,23 @@ const SummarySection = () => {
                     לאתר
                   </a>
                 </li>
+
+                <li className="flex items-start">
+                  <span className="font-semibold ml-2">בייס44 (Base44):</span>
+                  <span className="text-gray-700">כלי ליצירת אתרים בחינם - </span>
+                  <a href="https://base44.com/" target="_blank" rel="noopener noreferrer" className="text-ai-blue hover:underline mr-1">
+                    לאתר
+                  </a>
+                  <span className="text-gray-700 mr-1">מצורף סרטון הדרכה</span>
+                </li>
+
+                <li className="flex items-start">
+                  <span className="font-semibold ml-2">לאבבל (Lovable):</span>
+                  <span className="text-gray-700">הפלטפורמה שבה נבנה האתר הזה - </span>
+                  <a href="https://lovable.dev/" target="_blank" rel="noopener noreferrer" className="text-ai-blue hover:underline mr-1">
+                    לאתר
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
@@ -89,13 +106,6 @@ const SummarySection = () => {
             <div className="flex-1">
               <h3 className="font-bold text-lg mb-2">קישורים נוספים</h3>
               <ul className="space-y-3 mt-3">
-                <li className="flex items-start">
-                  <span className="font-semibold ml-2">אתר ההדרכות שלנו:</span>
-                  <a href="https://aiforot.netlify.app" target="_blank" rel="noopener noreferrer" className="text-ai-blue hover:underline">
-                    https://aiforot.netlify.app
-                  </a>
-                </li>
-                
                 <li className="flex items-start">
                   <span className="font-semibold ml-2">אינסטגרם מקצועי:</span>
                   <a href="https://www.instagram.com/rachel.haviv.ot" target="_blank" rel="noopener noreferrer" className="text-ai-blue hover:underline">
@@ -116,8 +126,7 @@ const SummarySection = () => {
             <div className="flex-1">
               <h3 className="font-bold text-lg mb-2">נשמח לשמוע מכם</h3>
               <p className="text-gray-700 leading-relaxed">
-                בכדי להגיע לקהלים נוספים נשמח אם תוכלו להמליץ עלינו :)
-                אם יש נושא נוסף שהייתם רוצים שנעשה עליו סרטון, או נושא שצריך הבהרה נוספת נשמח לשמוע.
+                נשמח שתעזרו להנגיש את הידע הזה לקהלים נוספים, ותוכלו לכתוב לנו המלצה
               </p>
             </div>
           </div>

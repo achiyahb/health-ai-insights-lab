@@ -32,6 +32,32 @@ const Index = () => {
               <Heart className="h-4 w-4 text-red-500 ml-1" />
             </a>
           </Button>
+          
+          {/* Logos Section */}
+          <div className="mt-12 flex flex-wrap justify-center items-center gap-8">
+            {/* AI for OTs Logo */}
+            <div className="w-32 h-32 bg-white rounded-full p-2">
+              <img 
+                src="/lovable-uploads/f5da2f07-6705-482e-ae02-e94e33ea102e.png" 
+                alt="AI for OTs Logo" 
+                className="w-full h-full object-contain" 
+              />
+            </div>
+            
+            {/* Shoham Medical Center Logo - Placeholder */}
+            <div className="w-32 h-32 bg-white rounded-full p-2 flex items-center justify-center">
+              <div className="text-ai-blue text-center text-xs">
+                <p>לוגו מרכז רפואי שוהם</p>
+              </div>
+            </div>
+            
+            {/* Shoham OT Institute Logo - Placeholder */}
+            <div className="w-32 h-32 bg-white rounded-full p-2 flex items-center justify-center">
+              <div className="text-ai-blue text-center text-xs">
+                <p>לוגו מכון ריפוי בעיסוק שוהם</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
