@@ -28,7 +28,7 @@ const Index = () => {
             className="bg-white text-ai-blue hover:bg-gray-100 group"
           >
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfXkiwt0XaLvLv-g3qd2kjLEVPowVPzoT4QNJod9uVNoib9YA/viewform?usp=dialog"
+              href="https://forms.gle/B1T7PKrkbcKjJCo29"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 space-x-reverse"
