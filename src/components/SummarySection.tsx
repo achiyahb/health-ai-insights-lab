@@ -1,5 +1,6 @@
 import React from "react";
 import { Shield, Lightbulb, Link, FileText } from "lucide-react";
+import PromptGuide from "./PromptGuide";
 
 const SummarySection = () => {
   return (
@@ -39,6 +40,9 @@ const SummarySection = () => {
             </div>
           </div>
         </div>
+
+        {/* Adding PromptGuide component here */}
+        <PromptGuide />
 
         <div className="bg-white rounded-lg p-6 card-shadow">
           <div className="flex items-start space-x-4 space-x-reverse">

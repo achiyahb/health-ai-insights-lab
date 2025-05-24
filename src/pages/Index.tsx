@@ -68,11 +68,8 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Summary Content */}
+      {/* Summary Content - now includes PromptGuide within it */}
       <SummarySection />
-
-      {/* Prompt Method */}
-      <PromptGuide />
 
       {/* Call to Action */}
       <section className="py-12 bg-ai-lightBlue">
