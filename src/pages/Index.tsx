@@ -15,12 +15,13 @@ const Index = () => {
       <section className="bg-gradient-to-br from-ai-blue/90 to-ai-purple/80 text-white py-16 md:py-20">
         <div className="container mx-auto px-4 sm:px-6 max-w-4xl text-center">
           <h1 className="text-3xl md:text-4xl font-bold mb-6 animate-fadeIn">
-            תודה שהשתתפתם ביום העיון שלנו על בינה מלאכותית במקצועות הבריאות!
+            תודה שהשתתפתם ביום העיון שלנו על בינה מלאכותית במקצועות הבריאות,
+            במרכז רפואי שוהם!
           </h1>
           <p className="text-lg md:text-xl max-w-3xl mx-auto opacity-90 mb-10">
-            אנו מודים לכם על ההשתתפות, הסקרנות וההקשבה. אם נהניתם ולמדתם – נשמח
-            מאוד לקבל מכם המלצה אישית קצרה. זה עוזר לנו להמשיך ולשתף ידע עם עוד
-            מטפלים ומרפאים.
+            אנו מודים לכם על ההשתתפות, הסקרנות וההקשבה. אם נהניתם ולמדתם, נשמח
+            מאוד לקבל מכם המלצה אישית קצרה, על מנת שנוכל להמשיך ולשתף ידע עם עוד
+            מטפלים ממקצועות הבריאות.
           </p>
           <Button
             size="lg"
