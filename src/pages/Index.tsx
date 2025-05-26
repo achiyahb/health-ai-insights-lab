@@ -1,5 +1,6 @@
+
 import React from "react";
-import { ArrowLeft, Heart } from "lucide-react";
+import { ArrowLeft, Heart, FileText } from "lucide-react";
 import { NavLink } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import SummarySection from "@/components/SummarySection";
@@ -23,25 +24,28 @@ const Index = () => {
             מאוד לקבל מכם המלצה אישית קצרה, על מנת שנוכל להמשיך ולשתף ידע עם עוד
             מטפלים ממקצועות הבריאות.
           </p>
-          <Button
-            size="lg"
-            asChild
-            className="bg-white text-ai-blue hover:bg-gray-100 group"
-          >
-            <a
-              href="https://forms.gle/B1T7PKrkbcKjJCo29"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center space-x-2 space-x-reverse"
+
+          {/* Survey Link */}
+          <div className="mb-8">
+            <Button
+              size="lg"
+              asChild
+              className="bg-ai-purple text-white hover:bg-ai-purple/90 group mb-4"
             >
-              <span>כתבו לנו המלצה</span>
-              <ArrowLeft className="h-5 w-5 mr-1 transition-transform group-hover:-translate-x-1" />
-              <Heart className="h-4 w-4 text-red-500 ml-1" />
-            </a>
-          </Button>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLScM9AmXa_IKlxlSbwofEzBYhApyxGXUg2LwGruU59Ntcuyfug/viewform?usp=header"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center space-x-2 space-x-reverse"
+              >
+                <span>מלאו את הסקר על יום העיון</span>
+                <FileText className="h-5 w-5 mr-1" />
+              </a>
+            </Button>
+          </div>
 
           {/* Logos Section */}
-          <div className="mt-12 flex flex-wrap justify-center items-center gap-8">
+          <div className="mt-8 mb-8 flex flex-wrap justify-center items-center gap-8">
             {/* AI for OTs Logo */}
             <div className="w-32 h-32 bg-white rounded-full p-2">
               <img
@@ -69,6 +73,24 @@ const Index = () => {
               />
             </div>
           </div>
+
+          {/* Recommendation Link */}
+          <Button
+            size="lg"
+            asChild
+            className="bg-white text-ai-blue hover:bg-gray-100 group"
+          >
+            <a
+              href="https://forms.gle/B1T7PKrkbcKjJCo29"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-2 space-x-reverse"
+            >
+              <span>כתבו לנו המלצה</span>
+              <ArrowLeft className="h-5 w-5 mr-1 transition-transform group-hover:-translate-x-1" />
+              <Heart className="h-4 w-4 text-red-500 ml-1" />
+            </a>
+          </Button>
         </div>
       </section>
 
