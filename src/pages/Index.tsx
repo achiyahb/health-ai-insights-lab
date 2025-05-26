@@ -48,7 +48,7 @@ const Index = () => {
               <img
                 src="/lovable-uploads/f5da2f07-6705-482e-ae02-e94e33ea102e.png"
                 alt="AI for OTs Logo"
-                className="w-full h-full object-contain"
+                className="w-full h-full object-contain rounded-full"
               />
             </div>
 
@@ -57,7 +57,7 @@ const Index = () => {
               <img
                 src="/lovable-uploads/7e2043c5-05d5-4d30-9a8c-91dd57f44ad5.png"
                 alt="המרכז הרפואי שוהם"
-                className="w-full h-full object-contain"
+                className="w-full h-full object-contain rounded-full"
               />
             </div>
 
@@ -66,7 +66,7 @@ const Index = () => {
               <img
                 src="/lovable-uploads/bf2459d4-397a-4a0d-b764-7bf8c5c83044.png"
                 alt="מכון ריפוי בעיסוק שוהם"
-                className="w-full h-full object-contain"
+                className="w-full h-full object-contain rounded-full"
               />
             </div>
           </div>
