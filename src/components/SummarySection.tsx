@@ -70,12 +70,13 @@ const SummarySection = () => {
                 </li>
 
                 <li className="flex items-start">
-                  <span className="font-semibold ml-2">קלוד (Claude):</span>
+                  <span className="font-semibold ml-2">Google AI Studio:</span>
                   <span className="text-gray-700">
-                    צ׳אט שמאפשר ליצור טקסט, וגם ממשק לבניית אתר אינטרנט -{" "}
+                    ממשק של גוגל שמכיל הרבה אפשרויות במקום אחד, סרטונים, תמונות
+                    וצ׳אט
                   </span>
                   <a
-                    href="https://claude.ai"
+                    href="https://aistudio.google.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-ai-blue hover:underline mr-1"
