@@ -1,4 +1,3 @@
-
 import React from "react";
 import { ArrowLeft, Heart } from "lucide-react";
 import { NavLink } from "react-router-dom";
@@ -17,7 +16,7 @@ const Index = () => {
         <div className="container mx-auto px-4 sm:px-6 max-w-4xl text-center">
           <h1 className="text-3xl md:text-4xl font-bold mb-6 animate-fadeIn">
             תודה שהשתתפתם ביום העיון שלנו על בינה מלאכותית במקצועות הבריאות,
-            במרכז רפואי שוהם!
+            במרכז רפואי שהם!
           </h1>
           <p className="text-lg md:text-xl max-w-3xl mx-auto opacity-90 mb-10">
             אנו מודים לכם על ההשתתפות, הסקרנות וההקשבה. אם נהניתם ולמדתם, נשמח
@@ -56,7 +55,7 @@ const Index = () => {
             <div className="w-32 h-32 bg-white rounded-full p-2">
               <img
                 src="/lovable-uploads/7e2043c5-05d5-4d30-9a8c-91dd57f44ad5.png"
-                alt="המרכז הרפואי שוהם"
+                alt="המרכז הרפואי שהם"
                 className="w-full h-full object-contain rounded-full"
               />
             </div>
@@ -65,7 +64,7 @@ const Index = () => {
             <div className="w-32 h-32 bg-white rounded-full p-2">
               <img
                 src="/lovable-uploads/bf2459d4-397a-4a0d-b764-7bf8c5c83044.png"
-                alt="מכון ריפוי בעיסוק שוהם"
+                alt="מכון ריפוי בעיסוק שהם"
                 className="w-full h-full object-contain rounded-full"
               />
             </div>
