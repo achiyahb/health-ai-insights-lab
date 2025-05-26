@@ -1,3 +1,4 @@
+
 import React from "react";
 import { ArrowLeft, Heart } from "lucide-react";
 import { NavLink } from "react-router-dom";
@@ -51,18 +52,22 @@ const Index = () => {
               />
             </div>
 
-            {/* Shoham Medical Center Logo - Placeholder */}
-            <div className="w-32 h-32 bg-white rounded-full p-2 flex items-center justify-center">
-              <div className="text-ai-blue text-center text-xs">
-                <p>לוגו מרכז רפואי שוהם</p>
-              </div>
+            {/* Shoham Medical Center Logo */}
+            <div className="w-32 h-32 bg-white rounded-full p-2">
+              <img
+                src="/lovable-uploads/7e2043c5-05d5-4d30-9a8c-91dd57f44ad5.png"
+                alt="המרכז הרפואי שוהם"
+                className="w-full h-full object-contain"
+              />
             </div>
 
-            {/* Shoham OT Institute Logo - Placeholder */}
-            <div className="w-32 h-32 bg-white rounded-full p-2 flex items-center justify-center">
-              <div className="text-ai-blue text-center text-xs">
-                <p>לוגו מכון ריפוי בעיסוק שוהם</p>
-              </div>
+            {/* Shoham OT Institute Logo */}
+            <div className="w-32 h-32 bg-white rounded-full p-2">
+              <img
+                src="/lovable-uploads/bf2459d4-397a-4a0d-b764-7bf8c5c83044.png"
+                alt="מכון ריפוי בעיסוק שוהם"
+                className="w-full h-full object-contain"
+              />
             </div>
           </div>
         </div>
